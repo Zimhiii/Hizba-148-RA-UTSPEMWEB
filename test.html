@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Layout Responsif</title>
+    <style>
+      /* Style dasar untuk container */
+      .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 16px;
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+      }
+
+      /* Style untuk breakpoint 576px */
+      @media (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+      }
+
+      /* Style untuk breakpoint 768px */
+      @media (min-width: 768px) {
+        .container {
+          max-width: 720px;
+        }
+      }
+
+      /* Style untuk breakpoint 992px */
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+
+      /* Styling tambahan */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fafafa;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .sidebar {
+        background-color: #ddd;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+      .content {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+      }
+
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      /* Layout responsif untuk sidebar dan content */
+      @media (min-width: 768px) {
+        .layout {
+          display: flex;
+        }
+
+        .sidebar {
+          flex: 1;
+          margin-right: 10px;
+        }
+
+        .content {
+          flex: 3;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Website Idola Saya</h1>
+      </header>
+      <div class="layout">
+        <div class="sidebar">
+          <h2>Menu Navigasi</h2>
+          <ul>
+            <li><a href="#">Halaman Utama</a></li>
+            <li><a href="#">Formulir</a></li>
+            <li><a href="#">Tabel</a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <h2>Selamat Datang!</h2>
+          <p>
+            Ini adalah halaman utama dari website idola saya. Di sini, kamu bisa
+            menemukan informasi tentang artis favorit, formulir untuk
+            mengirimkan komentar, dan tabel data tentang penampilan mereka.
+          </p>
+          <p>
+            Silakan gunakan menu navigasi di sebelah kiri untuk berpindah ke
+            halaman lain.
+          </p>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2024 Website Idola Saya</p>
+      </footer>
+    </div>
+  </body>
+</html>

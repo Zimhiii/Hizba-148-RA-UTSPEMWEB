@@ -1,0 +1,500 @@
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font-family: "poppins", sans-serif;
+  background-color: #302f2f;
+  color: black;
+  height: 100vh;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+}
+.container {
+  max-width: 100%;
+  position: relative;
+  background-color: rgb(26, 25, 25);
+  margin: 0 auto;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  /* gap: 10px; */
+}
+
+.logoname {
+  display: inherit;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid white;
+  justify-content: center;
+}
+
+.container-nav-item {
+  display: flex;
+  font-size: 1em;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  font-family: "monserrat", sans-serif;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+.nav-item:hover {
+  padding: 10px;
+  color: black;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.nav-item:hover {
+  padding: 10px;
+  /* color: black; */
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  /* border-radius: 5px; */
+  /* background-color: white; */
+}
+
+.hero-img {
+  background-image: url("asset/yoasobi-bg.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 10px 0px;
+  /* border-radius: 50%; */
+}
+
+.hero-text {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.1); /* Background transparan */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Untuk dukungan di browser Webkit */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.profile-band {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  margin-bottom: 15px;
+  background-color: rgb(52, 52, 52); /* Background transparan */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Untuk dukungan di browser Webkit */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.img-profile-container {
+  background-size: cover;
+  background-position: center;
+  margin: 20px 0px;
+}
+
+.img-band {
+  background-image: url("asset/yoasobi-profile.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.profile-band p {
+  /* display: flex; */
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.img-yoruNiKakeru {
+  background-image: url("asset/yoru-ni-kakeru.gif");
+  width: 100%;
+  height: 300px;
+}
+
+.profile-band h2 {
+  /* display: flex; */
+  /* margin-bottom: 10px; */
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.btn-ytb {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: black;
+}
+.btn-ytb:hover {
+  transition: all 0.3s ease-in-out;
+  color: red;
+  background-color: black;
+}
+
+.img-ayase-ikura {
+  background-image: url("asset/yoasobi-ayase-ikura.jpg");
+  width: 100%;
+  height: 500px;
+}
+
+.member-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+  background-color: rgb(255, 255, 255); /* Background transparan */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Untuk dukungan di browser Webkit */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.member-profile h2 {
+  font-size: 1.5em;
+}
+
+.img-ayase {
+  background-image: url("https://www.sponichi.co.jp/entertainment/news/2023/06/29/jpeg/20230629s00041000526000p_view.jpg");
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.img-ikura {
+  background-image: url("https://i.pinimg.com/736x/96/e3/76/96e376a5b84ff9f139143908b9e04f93.jpg");
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.container-top-songs {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.container-songs {
+  display: flex;
+  flex-direction: column;
+  /* background-color: azure; */
+  gap: 20px;
+}
+
+.container-song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0); /* Background transparan */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Untuk dukungan di browser Webkit */
+  border-radius: 8px;
+
+  padding: 40px 20px;
+}
+
+.img-top-5 {
+  /* background-image: url("https://i1.sndcdn.com/artworks-nypVxQysyyck8wyt-wSzUwg-t500x500.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.container-top-songs h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.container-songs p {
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.text-top-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-idol {
+  background-image: url("https://i1.sndcdn.com/artworks-nypVxQysyyck8wyt-wSzUwg-t500x500.jpg");
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* XS: Layar sangat kecil (mobile) */
+@media (max-width: 575.98px) {
+  body {
+    font-size: 14px;
+    /* background-color: lightgray; */
+  }
+
+  .header {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+/* SM: Layar kecil (mobile landscape) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    font-size: 16px;
+    background-color: lightblue;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+
+  .header {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+/* MD: Layar sedang (tablet) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    font-size: 18px;
+    background-color: lightgreen;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+
+  .header {
+    font-size: 24px;
+    text-align: left;
+  }
+}
+
+/* LG: Layar besar (desktop) */
+@media (min-width: 992px) {
+  body {
+    font-size: 20px;
+    background-color: white;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+
+  .header {
+    font-size: 28px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+    background-color: white;
+  }
+
+  .container {
+    max-width: 1140px;
+  }
+
+  .header {
+    font-size: 28px;
+    text-align: left;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    font-size: 20px;
+    background-color: white;
+  }
+
+  .container {
+    max-width: 1320px;
+  }
+
+  .header {
+    font-size: 28px;
+    text-align: left;
+  }
+}

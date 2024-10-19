@@ -442,6 +442,250 @@ footer {
   margin-top: 10px;
 }
 
+/* 
+
+halaman question.html
+
+*/
+
+.main-question {
+  margin-top: 10px;
+  width: 100%;
+  background-color: black;
+}
+
+.hero-question {
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  padding: 20px 0px;
+  width: 100%;
+  background-color: black;
+}
+
+.img-hero-question {
+  background-image: url("https://images7.alphacoders.com/125/thumb-1920-1253348.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* margin: 10px 0px; */
+}
+.img-hero-question h1 {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.1); /* Background transparan */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Untuk dukungan di browser Webkit */
+  border-radius: 8px;
+  padding: 10px;
+
+  /* margin: 10px 0px; */
+}
+/* .hero-question h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding: 20px;
+} */
+
+form {
+  /* background-color: wheat; */
+  border-radius: 20px;
+  padding: 20px;
+  font-family: "inter", sans-serif;
+  line-height: 1.5;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.container-label-input {
+  display: flex;
+  background-color: #111010;
+  color: white;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container-label-input label {
+  font-size: 1.2em;
+}
+.container-label-input input {
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1.1em;
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+}
+
+.container-label-input input:focus {
+  outline: none;
+  border: 1px solid white;
+}
+.container-label-input textarea:focus {
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.container-label-input textarea {
+  padding: 10px;
+  background-color: #111010;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 1.1em;
+  height: 250px;
+}
+
+.container-radio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-radio input {
+  width: 15px;
+  height: 15px;
+}
+.container-radio input:active {
+  background-color: rgb(0, 0, 0);
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+/* Membuat label sebagai radio button kustom */
+input[type="radio"] + label {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 5px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.favorite {
+  padding: 20px;
+}
+
+.genre {
+  padding: 20px;
+}
+
+.container-name-year {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.nama {
+  width: 100%;
+}
+.year {
+  width: 100%;
+}
+
+form h1 {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 2em;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Warna dan border ketika radio button dipilih */
+input[type="radio"]:checked + label {
+  background-color: #ffffff; /* Warna latar belakang saat dipilih */
+  border-color: #ffffff; /* Warna border saat dipilih */
+  color: rgb(0, 0, 0); /* Warna teks saat dipilih */
+}
+
+input[type="radio"] + label:hover {
+  background-color: #f0f0f0;
+  color: rgb(0, 0, 0);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Membuat label sebagai checkbox kustom */
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Warna dan border ketika checkbox dipilih */
+input[type="checkbox"]:checked + label {
+  background-color: #ffffff; /* Warna latar belakang saat dipilih */
+  border-color: #ffffff; /* Warna border saat dipilih */
+  color: rgb(0, 0, 0); /* Warna teks saat dipilih */
+}
+
+/* Warna hover pada label */
+input[type="checkbox"] + label:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+input[type="submit"] {
+  background-color: #080707;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  font-size: 1.5em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.container-choice {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
 /* XS: Layar sangat kecil (mobile) */
 @media (max-width: 575.98px) {
   body {
@@ -533,6 +777,10 @@ footer {
   body {
     font-size: 20px;
     background-color: white;
+  }
+
+  form {
+    margin: 0 20px;
   }
 
   .container {
@@ -632,6 +880,31 @@ footer {
     font-size: 28px;
     text-align: left;
   }
+
+  .container-choice {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+  .container-name-year {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .nama {
+    width: 50%;
+  }
+  .year {
+    width: 50%;
+  }
+  .favorite {
+    width: 50%;
+  }
+
+  .genre {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -670,6 +943,16 @@ footer {
   .header {
     font-size: 28px;
     text-align: left;
+  }
+
+  .img-hero-question {
+    background-image: url("https://images7.alphacoders.com/125/thumb-1920-1253348.jpg");
+
+    /* background-repeat: no-repeat; */
+    height: 500px;
+    /* background-position: top; */
+
+    /* margin: 10px 0px; */
   }
 }
 @media (min-width: 1400px) {

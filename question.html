@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Yoasobi</title>
+    <style>
+      form {
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+      input[type="submit"] {
+        margin-top: 20px;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formulir Pertanyaan tentang Yoasobi</h1>
+    <form method="GET" action="tabelOfQuestions.html">
+      <label for="name">Nama Anda:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="birthdate">Tanggal Lahir:</label>
+      <input type="date" id="birthdate" name="birthdate" required />
+
+      <label>Apakah Anda penggemar Yoasobi?</label>
+      <input type="radio" id="fan-yes" name="fan" value="yes" required />
+      <label for="fan-yes">Ya</label>
+      <input type="radio" id="fan-no" name="fan" value="no" required />
+      <label for="fan-no">Tidak</label>
+
+      <label for="favorite-song">Lagu favorit Yoasobi:</label>
+      <input type="text" id="favorite-song" name="favorite-song" />
+
+      <label>Genre musik yang Anda sukai:</label>
+      <input type="checkbox" id="genre-pop" name="genre" value="Pop" />
+      <label for="genre-pop">Pop</label>
+      <input type="checkbox" id="genre-jazz" name="genre" value="Jazz" />
+      <label for="genre-jazz">Jazz</label>
+      <input type="checkbox" id="genre-rock" name="genre" value="Rock" />
+      <label for="genre-rock">Rock</label>
+
+      <input type="submit" value="Kirim" />
+    </form>
+  </body>
+</html>

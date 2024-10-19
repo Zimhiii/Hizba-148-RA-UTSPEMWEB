@@ -351,7 +351,7 @@ a:active {
   color: rgb(0, 0, 0);
   margin-bottom: 15px;
   background-color: rgb(255, 255, 255);
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
 }
 
@@ -368,7 +368,7 @@ a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  gap: 10px;
   color: white;
   background-color: rgba(0, 0, 0); /* Background transparan */
   backdrop-filter: blur(10px); /* Efek blur */
@@ -506,7 +506,8 @@ footer {
   .container-songs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
   }
@@ -516,7 +517,9 @@ footer {
   }
 
   .container-song {
-    width: 300px;
+    width: 340px;
+
+    height: 1100px;
   }
 
   .header {
@@ -613,6 +616,7 @@ footer {
 
   .container-song {
     width: 100%;
+    height: fit-content;
     display: flex;
     gap: 10px;
     flex-direction: unset;

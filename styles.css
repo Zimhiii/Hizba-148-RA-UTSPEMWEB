@@ -257,7 +257,7 @@ a:active {
 
 .img-profile-container {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin: 20px 0px;
 }
 
@@ -413,6 +413,22 @@ a:active {
 
   height: 300px;
 }
+.img-monster {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b273f609c79794752ed7ee0976b5");
+  height: 300px;
+}
+.img-yoru-ni-kakeru {
+  background-image: url("https://www.galpo.info/sites/default/files/inline-images/%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B_JK_small.jpg");
+  height: 300px;
+}
+.img-gunjou {
+  background-image: url("https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/7e/4a/ae7e4a28-fd46-9617-1066-fcbd124303d6/195497105656.jpg/1200x1200bf-60.jpg");
+  height: 300px;
+}
+.img-tabun {
+  background-image: url("https://images.genius.com/ea0ed207d97747fc8130b39be4748564.1000x1000x1.jpg");
+  height: 300px;
+}
 
 footer {
   display: flex;
@@ -467,6 +483,17 @@ footer {
     max-width: 720px;
   }
 
+  .navbar-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 20px;
+  }
+
+  .container-nav-item {
+    gap: 20px;
+  }
+
   .container-member-profile {
     display: flex;
     gap: 20px;
@@ -509,8 +536,30 @@ footer {
     max-width: 960px;
   }
 
+  .container-about-unique {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* .img-ayase-ikura {
+    width: 500px;
+    height: 500px;
+    background-image: url("asset/yoasobi-ayase-ikura.jpg");
+  } */
+
+  .about-yoasobi {
+    width: 50%;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .unique-yoasobi {
+    width: 50%;
+  }
+
   .container-side-main {
     display: flex;
+    gap: 5px;
     position: relative;
   }
 
@@ -521,9 +570,21 @@ footer {
     justify-content: start;
   }
 
+  .nav-bar .sticky {
+    top: 20px;
+  }
+
+  .navbar-row {
+    display: flex;
+    justify-content: unset;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
   .container-nav-item {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
 
   .nav-item {
@@ -573,6 +634,29 @@ footer {
   body {
     font-size: 20px;
     background-color: white;
+  }
+
+  .img-ayase-ikura {
+    background-image: url("asset/yoasobi-ayase-ikura.jpg");
+    width: 100%;
+    height: 1000px;
+  }
+
+  .container-profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .member-profile {
+    width: 90%;
+  }
+
+  .container-member-profile {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .container {

@@ -152,13 +152,25 @@ a:active {
   margin: 0 auto;
 }
 
+.container-side-main {
+  position: relative;
+}
+
 .nav-bar {
+  position: relative;
   display: flex;
   background-color: black;
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
+  text-align: center;
   /* gap: 10px; */
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 99;
 }
 
 .logoname {
@@ -335,6 +347,7 @@ a:active {
   justify-content: center;
   align-items: center;
   gap: 5px;
+
   color: rgb(0, 0, 0);
   margin-bottom: 15px;
   background-color: rgb(255, 255, 255);
@@ -345,16 +358,17 @@ a:active {
 .container-songs {
   display: flex;
   flex-direction: column;
-  /* background-color: azure; */
   gap: 20px;
+  /* background-color: azure; */
 }
 
 .container-song {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+
   color: white;
   background-color: rgba(0, 0, 0); /* Background transparan */
   backdrop-filter: blur(10px); /* Efek blur */
@@ -367,6 +381,8 @@ a:active {
 .img-top-5 {
   /* background-image: url("https://i1.sndcdn.com/artworks-nypVxQysyyck8wyt-wSzUwg-t500x500.jpg"); */
   background-size: cover;
+  width: 300px;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -386,10 +402,15 @@ a:active {
   align-items: center;
   gap: 10px;
 }
+.text-top-5 h3 {
+  font-size: 1.2em;
+  font-family: "monserrat", sans-serif;
+  font-weight: bold;
+}
 
 .img-idol {
   background-image: url("https://i1.sndcdn.com/artworks-nypVxQysyyck8wyt-wSzUwg-t500x500.jpg");
-  width: 300px;
+
   height: 300px;
 }
 
@@ -404,6 +425,7 @@ footer {
   padding: 10px;
   margin-top: 10px;
 }
+
 /* XS: Layar sangat kecil (mobile) */
 @media (max-width: 575.98px) {
   body {
@@ -435,7 +457,7 @@ footer {
 }
 
 /* MD: Layar sedang (tablet) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) {
   body {
     font-size: 18px;
     background-color: lightgreen;
@@ -443,6 +465,31 @@ footer {
 
   .container {
     max-width: 720px;
+  }
+
+  .container-member-profile {
+    display: flex;
+    gap: 20px;
+  }
+
+  .member-profile {
+    width: 50%;
+  }
+
+  .container-songs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .img-top-5 {
+    width: 200px;
+  }
+
+  .container-song {
+    width: 300px;
   }
 
   .header {
@@ -460,6 +507,60 @@ footer {
 
   .container {
     max-width: 960px;
+  }
+
+  .container-side-main {
+    display: flex;
+    position: relative;
+  }
+
+  .nav-bar {
+    position: relative;
+    gap: 30px;
+    padding: 20px;
+    justify-content: start;
+  }
+
+  .container-nav-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    width: 100%;
+    /* border-radius: 0px; */
+    text-align: center;
+  }
+  .nav-item:hover {
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  .container-songs {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .img-top-5 {
+    width: 30%;
+  }
+
+  .container-song {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: unset;
+  }
+
+  .text-top-5 {
+    width: 70%;
+    justify-content: start;
+    align-items: start;
   }
 
   .header {

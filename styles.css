@@ -435,11 +435,52 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #333;
+  /* background-color: #000000; */
+  background-image: url("https://wallpapercave.com/wp/wp7910145.png");
+  background-position: top;
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 10px;
   margin-top: 10px;
+}
+
+/* .footer {
+  background-color: #494747;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+} */
+
+.container-footer {
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.1); /* Background transparan */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Untuk dukungan di browser Webkit */
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-link {
+  color: #4a90e2;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-link:hover {
+  color: #1e90ff;
 }
 
 /* 

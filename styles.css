@@ -436,7 +436,7 @@ footer {
   align-items: center;
   flex-direction: column;
   /* background-color: #000000; */
-  background-image: url("https://wallpaperaccess.com/full/6992991.jpg");
+  background-image: url("https://wallpapercave.com/wp/wp7910145.png");
   background-position: top;
   background-size: cover;
   color: white;
@@ -474,7 +474,7 @@ footer {
 }
 
 .social-link {
-  color: #4a90e2;
+  color: #000000;
   text-decoration: none;
   margin: 0 10px;
 }

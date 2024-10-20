@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yoasobi - Tabel Pertanyaan</title>
+    <meta itemprop="name" content="Yoasobi - Tabel Pertanyaan" />
+    <title itemprop="headline">Yoasobi - Tabel Pertanyaan</title>
     <link
       rel="shortcut icon"
       href="asset/yoasobi-logo.jpg"
       type="image/x-icon"
     />
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -31,11 +26,11 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="container">
+  <body class="container" itemscope itemtype="http://schema.org/WebPageElement">
     <div class="container-side-main">
       <nav class="nav-bar sticky">
         <div class="navbar-row sticky">
-          <h1 class="logoname">Yoasobi</h1>
+          <h1 class="logoname" itemprop="headline">Yoasobi</h1>
           <div class="container-nav-item">
             <a href="index.html" class="nav-item">Home</a>
             <a href="bertanya.html" class="nav-item">Tanya?</a>
@@ -44,8 +39,12 @@
         </div>
       </nav>
       <main class="main-table">
-        <h1>Informasi Penggemar Yoasobi</h1>
-        <div class="table-container">
+        <h1 itemprop="headline">Informasi Penggemar Yoasobi</h1>
+        <div
+          class="table-container"
+          itemscope
+          itemtype="http://schema.org/Table"
+        >
           <table>
             <thead>
               <tr>
@@ -58,537 +57,525 @@
               </tr>
             </thead>
             <tbody>
-              <!-- Baris data dummy -->
-              <tr>
-                <td class="no-column">1</td>
-                <td>Ali</td>
-                <td>2019</td>
-                <td>Monster</td>
-                <td>Pop, Jazz, Rock</td>
-                <td class="message-column">
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">1</td>
+                <td itemprop="name">Ali</td>
+                <td itemprop="startDate">2019</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
                   Saya suka Yoasobi Karena suaranya yang khas dan lagunya enak
                   untuk didengar
                 </td>
               </tr>
-              <tr>
-                <td class="no-column">2</td>
-                <td>Budi</td>
-                <td>2019</td>
-                <td>Idol</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">2</td>
+                <td itemprop="name">Budi</td>
+                <td itemprop="startDate">2019</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
                   Lagu Yoasobi sangat menyentuh hati dan liriknya mendalam.
                 </td>
               </tr>
-              <tr>
-                <td class="no-column">3</td>
-                <td>Cici</td>
-                <td>2020</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Yoasobi selalu menginspirasi lewat musiknya yang penuh makna.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">4</td>
-                <td>Doni</td>
-                <td>2020</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Saya suka ritme cepat dan nada harmonis dari lagu-lagu
-                  Yoasobi.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">5</td>
-                <td>Eva</td>
-                <td>2021</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Musiknya membawa suasana hati jadi lebih baik dan tenang.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">6</td>
-                <td>Feri</td>
-                <td>2021</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Yoasobi membuat musik yang mendalam dan membangkitkan emosi
-                  pendengarnya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">7</td>
-                <td>Gita</td>
-                <td>2022</td>
-                <td>Idol</td>
-                <td>Jazz, Pop</td>
-                <td class="message-column">
-                  Liriknya sangat relatable dan melodinya enak didengar setiap
-                  saat.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">8</td>
-                <td>Hadi</td>
-                <td>2022</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Rock, Pop</td>
-                <td class="message-column">
-                  Karya-karya Yoasobi sangat inovatif dan selalu penuh kejutan.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">9</td>
-                <td>Intan</td>
-                <td>2023</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Musik yang menenangkan dengan lirik penuh makna.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">10</td>
-                <td>Joko</td>
-                <td>2023</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Yoasobi selalu bisa menyampaikan emosi dengan sangat kuat
-                  melalui musiknya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">11</td>
-                <td>Kiki</td>
-                <td>2024</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Lagu-lagu mereka selalu bisa mengubah mood jadi lebih baik.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">12</td>
-                <td>Lina</td>
-                <td>2019</td>
-                <td>Idol</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Setiap lagu Yoasobi seperti menceritakan kisah hidup sendiri.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">13</td>
-                <td>Mira</td>
-                <td>2020</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Rock, Pop</td>
-                <td class="message-column">
-                  Liriknya dalam, tapi tetap easy listening.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">14</td>
-                <td>Nana</td>
-                <td>2020</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Yoasobi selalu punya lirik yang sangat berarti.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">15</td>
-                <td>Odi</td>
-                <td>2021</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Suaranya unik dan setiap lirik punya pesan mendalam.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">16</td>
-                <td>Pia</td>
-                <td>2021</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Yoasobi punya kemampuan luar biasa dalam menyampaikan emosi
-                  melalui musiknya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">17</td>
-                <td>Qori</td>
-                <td>2022</td>
-                <td>Idol</td>
-                <td>Jazz, Pop</td>
-                <td class="message-column">
-                  Lagu-lagunya selalu membuat semangat kembali.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">18</td>
-                <td>Rika</td>
-                <td>2022</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Setiap melodi dan liriknya sangat bermakna dan inspiratif.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">19</td>
-                <td>Sari</td>
-                <td>2023</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Musik Yoasobi selalu membawa rasa haru dan semangat baru.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">20</td>
-                <td>Tomi</td>
-                <td>2023</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Menyentuh hati dan membangkitkan kenangan dengan liriknya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">21</td>
-                <td>Uli</td>
-                <td>2024</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Yoasobi memberikan warna baru dalam musik modern Jepang.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">22</td>
-                <td>Vina</td>
-                <td>2019</td>
-                <td>Idol</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Lagu-lagunya Yoasobi selalu menenangkan dan membangkitkan
-                  semangat.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">23</td>
-                <td>Wawan</td>
-                <td>2020</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Rock, Pop</td>
-                <td class="message-column">
-                  Mendalam, penuh emosi, dan sangat memotivasi.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">24</td>
-                <td>Xena</td>
-                <td>2020</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Yoasobi memberikan pengalaman mendalam melalui musiknya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">25</td>
-                <td>Yuli</td>
-                <td>2021</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Musik yang penuh perasaan dan mengena di hati.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">26</td>
-                <td>Zaki</td>
-                <td>2021</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Setiap lagu punya cerita yang begitu indah dan dalam.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">27</td>
-                <td>Ani</td>
-                <td>2022</td>
-                <td>Idol</td>
-                <td>Jazz, Pop</td>
-                <td class="message-column">
-                  Yoasobi sangat kreatif dalam mengemas lirik dan musiknya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">28</td>
-                <td>Bian</td>
-                <td>2022</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Yoasobi memberikan energi baru dalam musik modern.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">29</td>
-                <td>Caca</td>
-                <td>2023</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Yoasobi berhasil membawa pendengar ke dunia penuh imajinasi.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">30</td>
-                <td>Dini</td>
-                <td>2023</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Musik Yoasobi selalu bisa membuat hati tenang.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">31</td>
-                <td>Eka</td>
-                <td>2024</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Musiknya selalu memberikan kesan mendalam dan menggugah hati.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">32</td>
-                <td>Fina</td>
-                <td>2019</td>
-                <td>Idol</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Yoasobi membawa warna baru dengan musiknya yang unik.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">33</td>
-                <td>Gino</td>
-                <td>2020</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Rock, Pop</td>
-                <td class="message-column">
-                  Menyentuh hati, mendalam, dan sangat memotivasi.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">34</td>
-                <td>Hana</td>
-                <td>2020</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Yoasobi membuat musik yang sangat berkesan dan menyentuh hati.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">35</td>
-                <td>Ira</td>
-                <td>2021</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Liriknya selalu menginspirasi dan sangat berarti.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">36</td>
-                <td>Joni</td>
-                <td>2021</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Yoasobi sangat pandai menyampaikan pesan lewat musiknya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">37</td>
-                <td>Kia</td>
-                <td>2022</td>
-                <td>Idol</td>
-                <td>Jazz, Pop</td>
-                <td class="message-column">
-                  Setiap lagu membawa perasaan baru yang menggugah semangat.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">38</td>
-                <td>Lino</td>
-                <td>2022</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Musik yang sangat indah dan penuh energi positif.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">39</td>
-                <td>Milo</td>
-                <td>2023</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Menyentuh perasaan dengan kedalaman liriknya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">40</td>
-                <td>Nino</td>
-                <td>2023</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Musiknya selalu membawa ketenangan dan semangat baru.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">41</td>
-                <td>Ocha</td>
-                <td>2024</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Membawa suasana hati yang lebih baik dan positif.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">42</td>
-                <td>Pito</td>
-                <td>2019</td>
-                <td>Idol</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Yoasobi selalu menghadirkan musik yang sangat berkualitas.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">43</td>
-                <td>Qin</td>
-                <td>2020</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Rock, Pop</td>
-                <td class="message-column">
-                  Liriknya sangat dalam, penuh makna, dan menyentuh hati.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">44</td>
-                <td>Rio</td>
-                <td>2020</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Setiap lagunya penuh dengan pesan yang sangat kuat.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">45</td>
-                <td>Sito</td>
-                <td>2021</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Musiknya membangkitkan emosi dan perasaan dengan cara yang
-                  unik.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">46</td>
-                <td>Tera</td>
-                <td>2021</td>
-                <td>Monster</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Yoasobi menghadirkan pengalaman musik yang luar biasa
-                  mendalam.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">47</td>
-                <td>Una</td>
-                <td>2022</td>
-                <td>Idol</td>
-                <td>Jazz, Pop</td>
-                <td class="message-column">
-                  Lagu-lagunya menginspirasi, dan membawa semangat baru setiap
-                  harinya.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">48</td>
-                <td>Vino</td>
-                <td>2022</td>
-                <td>Yoru ni Kakeru</td>
-                <td>Pop, Rock</td>
-                <td class="message-column">
-                  Setiap lagu membawa pesan yang kuat dan inspiratif.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">49</td>
-                <td>Wina</td>
-                <td>2023</td>
-                <td>Gunjou</td>
-                <td>Pop, Jazz</td>
-                <td class="message-column">
-                  Yoasobi berhasil menyentuh perasaan dengan cara unik.
-                </td>
-              </tr>
-              <tr>
-                <td class="no-column">50</td>
-                <td>Xavi</td>
-                <td>2023</td>
-                <td>Tabun</td>
-                <td>Jazz, Rock</td>
-                <td class="message-column">
-                  Musik Yoasobi selalu memberi pengalaman yang penuh kesan
-                  mendalam.
-                </td>
-              </tr>
 
-              <!-- Tambahkan lebih banyak baris di sini -->
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">3</td>
+                <td itemprop="name">Cahya</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu Yoasobi penuh energi dan liriknya inspiratif.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">4</td>
+                <td itemprop="name">Dewi</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Lirik Yoasobi membawa pesan yang mendalam.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">5</td>
+                <td itemprop="name">Eko</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Saya suka alunan musik Yoasobi yang selalu fresh.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">6</td>
+                <td itemprop="name">Fitria</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu Yoasobi selalu berhasil menyentuh emosi saya.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">7</td>
+                <td itemprop="name">Gilang</td>
+                <td itemprop="startDate">2019</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Jazz, Pop</td>
+                <td class="message-column" itemprop="description">
+                  Yoasobi punya gaya musik yang unik dan berbeda.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">8</td>
+                <td itemprop="name">Hana</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lirik-liriknya membuat saya lebih semangat setiap hari.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">9</td>
+                <td itemprop="name">Irfan</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi mengingatkan saya pada kenangan indah.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">10</td>
+                <td itemprop="name">Joko</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu-lagu Yoasobi membawa pesan positif bagi pendengarnya.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">11</td>
+                <td itemprop="name">Kiki</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lirik Yoasobi terasa sangat relatable dan menyentuh hati.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">12</td>
+                <td itemprop="name">Lina</td>
+                <td itemprop="startDate">2019</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Saya suka bagaimana Yoasobi menyampaikan cerita lewat lagu.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">13</td>
+                <td itemprop="name">Mira</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Setiap lagu Yoasobi memiliki suasana yang menenangkan.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">14</td>
+                <td itemprop="name">Nia</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Yoasobi selalu menghadirkan sesuatu yang baru dan fresh.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">15</td>
+                <td itemprop="name">Oni</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu Yoasobi selalu memberi makna yang mendalam.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">16</td>
+                <td itemprop="name">Pia</td>
+                <td itemprop="startDate">2019</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Musiknya bikin semangat, liriknya bikin mikir.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">17</td>
+                <td itemprop="name">Qori</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi sangat menginspirasi kehidupan saya.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">18</td>
+                <td itemprop="name">Rian</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Liriknya mengajak kita untuk merenungi hidup.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">19</td>
+                <td itemprop="name">Siti</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Setiap lagu Yoasobi terasa begitu dalam dan menyentuh hati.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">20</td>
+                <td itemprop="name">Tono</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lirik Yoasobi selalu punya cerita yang menarik dan mendalam.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">21</td>
+                <td itemprop="name">Udin</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Saya selalu suka dengan beat yang khas dari lagu Yoasobi.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">22</td>
+                <td itemprop="name">Vivi</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Jazz, Pop</td>
+                <td class="message-column" itemprop="description">
+                  Yoasobi memberi warna baru dalam dunia musik pop.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">23</td>
+                <td itemprop="name">Wati</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu Yoasobi selalu bikin saya merasa lebih baik.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">24</td>
+                <td itemprop="name">Xena</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Lirik dan musiknya bikin saya merasa nyaman.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">25</td>
+                <td itemprop="name">Yuni</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi sangat unik dan membuat saya terhanyut.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">26</td>
+                <td itemprop="name">Zaki</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu-lagu Yoasobi selalu bikin hariku lebih cerah.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">27</td>
+                <td itemprop="name">Ari</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Lagu-lagu Yoasobi sangat relatable dengan kehidupan
+                  sehari-hari.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">28</td>
+                <td itemprop="name">Bintang</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi selalu membuat saya merasa lebih hidup.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">29</td>
+                <td itemprop="name">Citra</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Suara vokalis Yoasobi sangat merdu dan menenangkan.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">30</td>
+                <td itemprop="name">Damar</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Yoasobi menggabungkan berbagai genre dengan sempurna.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">31</td>
+                <td itemprop="name">Evi</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu-lagu Yoasobi selalu menghadirkan suasana baru.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">32</td>
+                <td itemprop="name">Farhan</td>
+                <td itemprop="startDate">2019</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Saya suka cara Yoasobi bercerita lewat lagu.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">33</td>
+                <td itemprop="name">Gita</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Setiap lagu Yoasobi terasa seperti petualangan.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">34</td>
+                <td itemprop="name">Hendra</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Lagu-lagu Yoasobi selalu bikin saya refleksi diri.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">35</td>
+                <td itemprop="name">Indah</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Yoasobi berhasil menciptakan musik yang penuh emosi.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">36</td>
+                <td itemprop="name">Johan</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Lagu-lagu Yoasobi membantu saya melewati masa-masa sulit.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">37</td>
+                <td itemprop="name">Kurnia</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Setiap lagu Yoasobi penuh dengan makna yang mendalam.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">38</td>
+                <td itemprop="name">Lukman</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Saya suka alur cerita yang disampaikan Yoasobi dalam lagunya.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">39</td>
+                <td itemprop="name">Maya</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi selalu memberi inspirasi dalam hidup saya.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">40</td>
+                <td itemprop="name">Nando</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Yoasobi membawa warna baru dalam musik dunia.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">41</td>
+                <td itemprop="name">Ocha</td>
+                <td itemprop="startDate">2019</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Saya suka bagaimana Yoasobi memainkan emosi lewat musik.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">42</td>
+                <td itemprop="name">Pipit</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Lirik-lirik Yoasobi selalu menyentuh perasaan saya.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">43</td>
+                <td itemprop="name">Qisya</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi selalu berhasil membuat saya terkesima.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">44</td>
+                <td itemprop="name">Rani</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Setiap lagu Yoasobi punya kesan tersendiri di hati saya.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">45</td>
+                <td itemprop="name">Siti</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu-lagu Yoasobi mengajarkan saya untuk tetap optimis.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">46</td>
+                <td itemprop="name">Tari</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Monster</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi selalu punya keunikan tersendiri.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">47</td>
+                <td itemprop="name">Ujang</td>
+                <td itemprop="startDate">2022</td>
+                <td itemprop="musicBy">Idol</td>
+                <td itemprop="genre">Pop, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Setiap kali mendengar Yoasobi, saya merasa lebih bersemangat.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">48</td>
+                <td itemprop="name">Vina</td>
+                <td itemprop="startDate">2020</td>
+                <td itemprop="musicBy">Yoru ni Kakeru</td>
+                <td itemprop="genre">Pop, Jazz</td>
+                <td class="message-column" itemprop="description">
+                  Saya selalu menantikan lagu-lagu terbaru dari Yoasobi.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">49</td>
+                <td itemprop="name">Wawan</td>
+                <td itemprop="startDate">2021</td>
+                <td itemprop="musicBy">Gunjou</td>
+                <td itemprop="genre">Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Musik Yoasobi membuat saya terhanyut dalam suasana.
+                </td>
+              </tr>
+              <tr itemscope itemtype="http://schema.org/TableRow">
+                <td class="no-column" itemprop="rowNumber">50</td>
+                <td itemprop="name">Xaverius</td>
+                <td itemprop="startDate">2023</td>
+                <td itemprop="musicBy">Tabun</td>
+                <td itemprop="genre">Pop, Jazz, Rock</td>
+                <td class="message-column" itemprop="description">
+                  Lagu Yoasobi selalu menyenangkan untuk didengar berulang kali.
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
+        <footer class="footer">
+          <div class="container-footer">
+            <h3>&copy; 2024 Yoasobi Fan Web</h3>
+            <h3>Stay tuned for the latest news and updates about Yoasobi!</h3>
+            <h3>Designed By Hizba/148</h3>
+            <div class="social-links">
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">Twitter</a>
+              <a href="#" class="social-link">YouTube</a>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
-
-    <footer class="footer">
-      <div class="container-footer">
-        <h3>&copy; 2024 Yoasobi Fan Web</h3>
-        <h3>Stay tuned for the latest news and updates about Yoasobi!</h3>
-        <h3>Designed By Hizba/148</h3>
-        <div class="social-links">
-          <a href="#" class="social-link">Instagram</a>
-          <a href="#" class="social-link">Twitter</a>
-          <a href="#" class="social-link">YouTube</a>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>

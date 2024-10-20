@@ -21,11 +21,15 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="container h-entry">
+  <body
+    class="container h-entry"
+    itemscope
+    itemtype="http://schema.org/WebPage"
+  >
     <div class="container-side-main">
       <nav class="nav-bar sticky">
         <div class="navbar-row sticky">
-          <h1 class="logoname p-name">Yoasobi</h1>
+          <h1 class="logoname p-name" itemprop="name">Yoasobi</h1>
           <div class="container-nav-item">
             <a href="index.html" class="nav-item u-url">Home</a>
             <a href="bertanya.html" class="nav-item u-url">Tanya?</a>
@@ -38,7 +42,7 @@
         <header class="hero">
           <div class="hero-img">
             <div class="hero-text">
-              <h2 class="p-name">Yoasobi</h2>
+              <h2 class="p-name" itemprop="name">Yoasobi</h2>
               <p>Berikut informasi singkat tentang Yoasobi</p>
             </div>
           </div>
@@ -47,9 +51,9 @@
         <main class="main">
           <div class="container-about-unique">
             <div class="profile-band about-yoasobi">
-              <h2 class="p-name">Tentang Yoasobi</h2>
+              <h2 class="p-name" itemprop="headline">Tentang Yoasobi</h2>
               <div class="img-profile-container img-band"></div>
-              <p class="e-content">
+              <p class="e-content" itemprop="description">
                 Yoasobi adalah duo musik asal Jepang yang dibentuk pada tahun
                 2019 dan terdiri dari dua anggota utama: Ayase sebagai produser
                 musik dan Ikura (Rira Ikuta) sebagai vokalis. Duo ini dikenal
@@ -60,9 +64,9 @@
             </div>
 
             <div class="profile-band unique-yoasobi">
-              <h2 class="p-name">Keunikan</h2>
+              <h2 class="p-name" itemprop="headline">Keunikan</h2>
               <div class="img-profile-container img-yoruNiKakeru"></div>
-              <p class="e-content">
+              <p class="e-content" itemprop="description">
                 "Novel into music" artinya Yoasobi mengubah cerita dari novel
                 atau cerita pendek menjadi lagu. Mereka mengambil kisah dari
                 tulisan tersebut dan membuatnya hidup melalui lirik dan musik,
@@ -77,23 +81,23 @@
             </div>
           </div>
           <div class="profile-band">
-            <h2 class="p-name">Profil Anggota</h2>
+            <h2 class="p-name" itemprop="headline">Profil Anggota</h2>
             <div class="container-profiles">
               <div class="img-profile-container img-ayase-ikura"></div>
               <div class="container-member-profile">
                 <div class="member-profile">
-                  <h3 class="p-name">Ayase</h3>
+                  <h3 class="p-name" itemprop="name">Ayase</h3>
                   <div class="img-profile-container img-ayase"></div>
-                  <p class="e-content">
+                  <p class="e-content" itemprop="description">
                     Ayase adalah komposer dan produser musik di Yoasobi. Ia
                     bertanggung jawab dalam menciptakan lagu-lagu yang
                     menginspirasi, dengan gaya musik elektronik pop yang khas.
                   </p>
                 </div>
                 <div class="member-profile">
-                  <h3 class="p-name">Ikura (Rira Ikuta)</h3>
+                  <h3 class="p-name" itemprop="name">Ikura (Rira Ikuta)</h3>
                   <div class="img-profile-container img-ikura"></div>
-                  <p class="e-content">
+                  <p class="e-content" itemprop="description">
                     Ikura adalah vokalis utama Yoasobi. Suaranya yang khas dan
                     penuh emosi berhasil menyampaikan cerita yang diangkat dalam
                     setiap lagu Yoasobi.
@@ -104,14 +108,18 @@
           </div>
 
           <div class="container-top-songs">
-            <h2 class="p-name">Top 5 Lagu Yoasobi</h2>
+            <h2 class="p-name" itemprop="headline">Top 5 Lagu Yoasobi</h2>
 
             <div class="container-songs">
-              <div class="container-song">
+              <div
+                class="container-song"
+                itemscope
+                itemtype="http://schema.org/MusicRecording"
+              >
                 <div class="img-top-5 img-idol"></div>
                 <div class="text-top-5">
-                  <h3 class="p-name">Idol</h3>
-                  <p class="e-content">
+                  <h3 itemprop="name">Idol</h3>
+                  <p class="e-content" itemprop="description">
                     Lagu "アイドル" (Idol) oleh YOASOBI terinspirasi dari cerita
                     dalam anime Oshi no Ko. Lagu ini mengangkat tema tentang
                     kehidupan seorang idol yang terlihat sempurna dan penuh
@@ -130,11 +138,15 @@
                   >
                 </div>
               </div>
-              <div class="container-song">
+              <div
+                class="container-song"
+                itemscope
+                itemtype="http://schema.org/MusicRecording"
+              >
                 <div class="img-top-5 img-monster"></div>
                 <div class="text-top-5">
-                  <h3 class="p-name">Monster</h3>
-                  <p class="e-content">
+                  <h3 itemprop="name">Monster</h3>
+                  <p class="e-content" itemprop="description">
                     "怪物" (Monster) dari YOASOBI adalah lagu yang penuh energi
                     dengan tema perjuangan internal seseorang melawan sisi gelap
                     dalam dirinya demi melindungi orang lain. Diiringi ketukan
@@ -153,11 +165,15 @@
                   >
                 </div>
               </div>
-              <div class="container-song">
+              <div
+                class="container-song"
+                itemscope
+                itemtype="http://schema.org/MusicRecording"
+              >
                 <div class="img-top-5 img-yoru-ni-kakeru"></div>
                 <div class="text-top-5">
-                  <h3 class="p-name">Yoru ni Kakeru</h3>
-                  <p class="e-content">
+                  <h3 itemprop="name">Yoru ni Kakeru</h3>
+                  <p class="e-content" itemprop="description">
                     "夜に駆ける" (Yoru ni Kakeru) dari YOASOBI adalah lagu pop
                     Jepang yang diadaptasi dari cerita pendek berjudul Thanatos
                     no Yūwaku karya Mayo Hoshino. Lagu ini menggambarkan
@@ -176,11 +192,15 @@
                   >
                 </div>
               </div>
-              <div class="container-song">
+              <div
+                class="container-song"
+                itemscope
+                itemtype="http://schema.org/MusicRecording"
+              >
                 <div class="img-top-5 img-gunjou"></div>
                 <div class="text-top-5">
-                  <h3 class="p-name">Gunjou</h3>
-                  <p class="e-content">
+                  <h3 itemprop="name">Gunjou</h3>
+                  <p class="e-content" itemprop="description">
                     "群青" (Gunjou) dari YOASOBI adalah lagu yang penuh emosi,
                     menggambarkan perjalanan pencarian makna dan jati diri
                     seseorang. Terinspirasi dari cerita pendek "Blue", lagu ini
@@ -198,11 +218,15 @@
                   >
                 </div>
               </div>
-              <div class="container-song">
+              <div
+                class="container-song"
+                itemscope
+                itemtype="http://schema.org/MusicRecording"
+              >
                 <div class="img-top-5 img-tabun"></div>
                 <div class="text-top-5">
-                  <h3 class="p-name">Tabun</h3>
-                  <p class="e-content">
+                  <h3 itemprop="name">Tabun</h3>
+                  <p class="e-content" itemprop="description">
                     "たぶん" (Tabun) dari YOASOBI adalah lagu yang menggambarkan
                     perasaan ambigu dan keraguan dalam hubungan yang mendekati
                     akhirnya. Terinspirasi dari cerita pendek "Yamada Yūki",
@@ -228,9 +252,9 @@
     </div>
     <footer class="footer">
       <div class="container-footer">
-        <h3 class="p-name">&copy; 2024 Yoasobi Fan Web</h3>
+        <h3 class="p-name" itemprop="name">&copy; 2024 Yoasobi Fan Web</h3>
         <h3>Stay tuned for the latest news and updates about Yoasobi!</h3>
-        <h3 class="p-author">Designed By Hizba/148</h3>
+        <h3 class="p-author" itemprop="author">Designed By Hizba/148</h3>
         <div class="social-links">
           <a href="#" class="social-link u-url">Instagram</a>
           <a href="#" class="social-link u-url">Twitter</a>
